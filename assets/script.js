@@ -14,8 +14,6 @@ let plusBtnText = document.createTextNode("+");
 let display = document.createElement("div");
     display.classList.add("display");
 
-// let displayText = document.createTextNode(0);
-// let displayText = document.createElement("h2")
 let value = 0;
     display.textContent = value
 let displayContainer = document.createElement("div");
@@ -35,36 +33,6 @@ let negativeLabel = document.createElement("label")
     negativeLabel.htmlFor = "negative"
     negativeLabel.classList.add("label")
 let negativeText = document.createTextNode("NEGATIVE NUMBERS")
-
-// let x1Check = document.createElement("input");
-//     x1Check.type = "radio";
-//     x1Check.id = "x1";
-//     x1Check.name ="x-mode";
-//     x1Check.classList.add("checkbox");
-// let x1Label = document.createElement("label");
-//     x1Label.htmlFor = "x1";
-//     x1Label.classList.add("label");
-// let x1Text = document.createTextNode("X1")
-
-// let x2Check = document.createElement("input")
-//     x2Check.type = "radio";
-//     x2Check.id = "x2"
-//     x2Check.name = "x-mode"
-//     x2Check.classList.add("checkbox")
-// let x2Label = document.createElement("label")
-//     x2Label.htmlFor = "x2"
-//     x2Label.classList.add("label")
-// let x2Text =document.createTextNode("X2")
-
-// let x10Check = document.createElement("input");
-//     x10Check.type = "radio";
-//     x10Check.id = "x10"
-//     x10Check.name = "x-mode"
-//     x10Check.classList.add("checkbox")
-// let x10Label = document.createElement("label")
-//     x10Label.htmlFor = "x10"
-//     x10Label.classList.add("label")
-// let  x10Text = document.createTextNode("X10")
 
 let select = document.createElement("select");
 let optX1 = document.createElement("option")
@@ -103,8 +71,6 @@ title.appendChild(titleText);
 container.appendChild(title);
 
 // DISPLAY
-    // displayText.classList.add("number-display")
-    // display.appendChild(displayText)
     displayContainer.appendChild(display)
     container.appendChild(displayContainer);
 //RESET
